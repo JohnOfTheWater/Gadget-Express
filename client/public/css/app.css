@@ -1,0 +1,224 @@
+body {
+  background: url('http://www.sport-magazine.co.uk/sites/default/files/gadgets_1.jpg');
+  background-size: cover;
+}
+#user {
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  margin: 0px 0px 0px -332px;
+  width: 332px;
+  height: 240px;
+}
+#controls {
+  padding: 7px 0px 0px 20px;
+  width: 310px;
+}
+#name {
+  width: 200px;
+}
+#deposit {
+  width: 200px;
+}
+#createUser {
+  width: 80px;
+  height: 50px;
+  margin: -180px -3px 0px 20px;
+  float: right;
+  font-size: 15px;
+}
+#gadget {
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  margin: 50px 0px 0px -332px;
+  width: 332px;
+  height: 240px;
+}
+#controlsGadget {
+  padding: 7px 0px 0px 20px;
+  width: 310px;
+}
+#gName {
+  width: 200px;
+}
+#cost {
+  width: 200px;
+}
+#createGadget {
+  width: 80px;
+  height: 50px;
+  margin: -180px -3px 0px 20px;
+  float: right;
+  font-size: 15px;
+}
+#users {
+  padding: 0px 0px 0px 30px;
+  min-width: 465px;
+  min-height: 330px;
+  font-size: 20px;
+  margin: -480px 0px 0px 350px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.9);
+  border: 1px solid white;
+  float: left;
+}
+#userName {
+  padding: 5px 45px 0px 0px;
+  float: left;
+}
+#balance {
+  padding: 5px 45px 0px 0px;
+  float: left;
+}
+#products {
+  padding: 5px 5px 0px 0px;
+  float: left;
+}
+#gadgetList {
+  padding: 0px 0px 0px 10px;
+  min-width: 500px;
+  min-height: 200px;
+  font-size: 20px;
+  margin: -110px 0px 0px 350px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.9);
+  border: 1px solid white;
+  float: left;
+}
+#purchase {
+  padding: 5px 35px 0px 0px;
+  float: left;
+}
+#gadget-name {
+  padding: 5px 35px 0px 0px;
+  float: left;
+}
+#gadgetCost {
+  padding: 5px 35px 0px 0px;
+  float: left;
+}
+#inStock {
+  padding: 5px 35px 0px 0px;
+  float: left;
+}
+.delete {
+  margin: 0px 0px 0px -20px;
+  float: left;
+}
+#who {
+  padding: 5px 45px 0px 0px;
+  float: left;
+}
+#quantity {
+  padding: 5px 45px 0px 0px;
+  float: left;
+}
+#purchase {
+  padding: 5px 35px 0px 0px;
+  float: left;
+}
+#callUser {
+  width: 30px;
+  height: 80px;
+  border: 1px solid white;
+  margin: -180px 0px 0px 330px;
+  background-color: rgba(235, 229, 229, 0.7);
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+#callGadget {
+  width: 30px;
+  height: 80px;
+  border: 1px solid white;
+  background: rgba(235, 229, 229, 0.7);
+  margin: -180px 0px 0px 330px;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+#callUserOut {
+  width: 30px;
+  height: 80px;
+  border: 1px solid white;
+  margin: -180px 0px 0px 330px;
+  background-color: rgba(235, 229, 229, 0.7);
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+#callGadgetOut {
+  width: 30px;
+  height: 80px;
+  border: 1px solid white;
+  margin: -180px 0px 0px 330px;
+  background-color: rgba(235, 229, 229, 0.7);
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+.user {
+  border-bottom: 1px solid black;
+  padding: 20px 0px 0px 0px;
+}
+.money {
+  float: left;
+}
+.balance {
+  border-bottom: 1px solid black;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+.products {
+  padding: 20px 0px 0px 0px;
+}
+.delete {
+  border: 1px solid black;
+  background-color: #B22222;
+  color: white;
+}
+.purchase {
+  border: 1px solid white;
+  margin: 15px 0px 0px 0px;
+  padding: 1px 1px 1px 1px;
+  background-color: #B22222;
+  color: white;
+}
+.gadget {
+  border-bottom: 1px solid black;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+}
+.cost {
+  border-bottom: 1px solid black;
+  padding: 15px 0px 0px 0px;
+}
+.quantita {
+  border-bottom: 1px solid black;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+}
+.buy {
+  color: red;
+}
+#quotes {
+  padding: 2px 0px 0px 0px;
+  width: 330px;
+  height: 173px;
+  margin: 20px 0px 0px 10px;
+  position: absolute;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.9);
+  text-align: center;
+}
+#darth {
+  margin: 15px 0px 0px 10px;
+  width: 150px;
+  color: grey;
+}
+#batman {
+  margin: 1px 0px 0px 4px;
+  width: 150px;
+  color: grey;
+}

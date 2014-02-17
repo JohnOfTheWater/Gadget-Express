@@ -1,0 +1,58 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title GadgetExpress
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    h1 Gadget Express
+    #user
+      #controls
+        label Username
+        input#name(type='text', placeholder='name...', autofocus='true')
+        label Deposit
+        input#deposit(type='text', placeholder='$')
+        label Image
+        input#userImage(type='text', placeholder='url...')
+        button.tiny#createUser Create
+      #callUser >
+      #callUserOut <
+    #gadget
+      #controlsGadget
+        label Gadget
+        input#gName(type='text', placeholder='gadget name...',)
+        label Cost
+        input#cost(type='text', placeholder='$')
+        label Amount
+        input#amount(type='text', placeholder='how many...')
+        button.tiny#createGadget Create
+      #callGadget >
+      #callGadgetOut <
+    #users
+      #userName User
+      #balance Balance $
+      #products Products
+    #gadgetList
+      #purchase --------
+      #gadget-name Gadget
+      #gadgetCost Cost $
+      #inStock In Stock
+      #who User
+      #quantity Quantity
+      #buy
+    #quotes WHAT OUR CUSTOMERS THINK ABOUT US.
+      #darth "...the force is strong in this website..."
+      #darth1 Darth Vader.
+      #batman "...Gotham is a better place now that I buy my gadgets here..."
+      #batman1 Batman.
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/vendor/lodash.js')
+    script(src='/js/source/main.js')
+
